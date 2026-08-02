@@ -1,0 +1,5 @@
+# Redirection 301 de l'ancien domaine vers le nouveau
+https://samsbizsolutions.business/* https://samsbizsolutions.fr/:splat 301!
+
+# Redirection interne SPA - toutes les routes non-trouvées vont à index.html
+/*    /index.html   200
