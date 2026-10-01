@@ -1,0 +1,5 @@
+[build]
+  publish = "."
+
+# Le dépôt contient déjà les fichiers HTML prêts à publier.
+# Aucune commande de compilation ni variable secrète n'est nécessaire.
