@@ -1,0 +1,4 @@
+'use strict';
+const button=document.querySelector('.burger'),nav=document.getElementById('nav');
+function closeMenu(focus=false){if(!nav||!button)return;nav.classList.remove('ouvert');button.setAttribute('aria-expanded','false');button.textContent='Menu';if(focus)button.focus();}
+if(button&&nav){button.addEventListener('click',()=>{const open=nav.classList.toggle('ouvert');button.setAttribute('aria-expanded',String(open));button.textContent=open?'Fermer':'Menu';});nav.addEventListener('click',e=>{if(e.target.closest('a'))closeMenu();});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('ouvert'))closeMenu(true);});document.addEventListener('click',e=>{if(!e.target.closest('.entete'))closeMenu();});matchMedia('(min-width: 1001px)').addEventListener('change',e=>{if(e.matches)closeMenu();});}
