@@ -4,7 +4,7 @@ Version du 1er octobre 2026. Site préparé et testé, non publié.
 
 ## Contenu
 
-Le dossier `out/` contient le site prêt à héberger : accueil, catalogue, dix fiches formation, page mutuelle et assurance santé, cinq pages d’information et page 404. Les anciennes adresses `.html` des formations et pages d’information sont également fournies.
+Le dossier `out/` contient le site prêt à héberger : accueil, catalogue, dix fiches formation, cinq pages d’information et page 404. Les anciennes adresses `.html` des formations et pages d’information sont également fournies.
 
 Les images, les cinq polices et les documents PDF sont intégrés localement. Aucun téléchargement externe de photo ou de police n’est nécessaire au chargement des pages.
 
