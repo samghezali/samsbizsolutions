@@ -17,3 +17,7 @@
 /samira-ghezali.html /samira-ghezali/ 301!
 # L'ancien PDF de règlement est obsolète : renvoi vers la version du 16 novembre 2026.
 /documents/reglement-interieur.pdf /reglement-interieur/ 302!
+
+# Ancienne offre sectorielle retirée du catalogue SBS.
+/mutuelle-assurance-sante/ /formations/ 301!
+/mutuelle-assurance-sante/index.html /formations/ 301!
